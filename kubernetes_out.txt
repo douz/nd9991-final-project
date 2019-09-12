@@ -1,0 +1,6 @@
+(.devops) dbarahona:project-ml-microservice-kubernetes dbarahona$ ./run_kubernetes.sh
+kubectl run --generator=deployment/apps.v1 is DEPRECATED and will be removed in a future version. Use kubectl run --generator=run-pod/v1 or kubectl create instead.
+deployment.apps/localdev created
+NAME                        READY   STATUS              RESTARTS   AGE
+localdev-67b9d677fd-sxj6n   0/1     ContainerCreating   0          0s
+service/localdev exposed
