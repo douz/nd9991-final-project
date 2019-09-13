@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://circleci.com/gh/douz/nd9991-final-project.svg?style=svg)](https://circleci.com/gh/douz/nd9991-final-project)
 
 ## Project Overview
 
