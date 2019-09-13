@@ -10,9 +10,6 @@ dockerpath=dbarahona/udacityproject
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
-
-# Read username and password from environment variables
-docker login -u=$DOCKER_USER -p=$DOCKER_PWD
 docker tag localdev $dockerpath
 
 # Step 3:
