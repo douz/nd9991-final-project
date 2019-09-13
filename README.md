@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://circleci.com/gh/douz/nd9991-final-project.svg?style=svg)](https://circleci.com/gh/douz/nd9991-final-project)
 
 ## Project Overview
 
@@ -28,11 +28,23 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 * Create a virtualenv and activate it
 * Run `make install` to install the necessary dependencies
 
+### Files
+1. `app.py` Webapp built using flask framework.
+2. `/run_docker.sh` Script to run the app in Docker.
+3. `run_kubernetes.sh` Script to run the app in Kubernetes.
+4. `make_prediction.sh` Script to test predictions.
+5. `upload_docker.sh` Script to upload the image to Docker Hub
+
 ### Running `app.py`
 
-1. Standalone:  `python app.py`
-2. Run in Docker:  `./run_docker.sh`
-3. Run in Kubernetes:  `./run_kubernetes.sh`
+1. Standalone:
+`python app.py`
+
+2. Run in Docker: 
+`./run_docker.sh`
+
+3. Run in Kubernetes:
+`./run_kubernetes.sh`
 
 ### Kubernetes Steps
 
